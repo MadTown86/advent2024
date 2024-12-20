@@ -15,10 +15,10 @@ def main():
     al.sort()
     bl.sort()
     dd = defaultdict(int)
+    # Creating defaultdict to store count of each element in bl
     for val in bl:
         dd[val] += 1
-    print(dd)
-    # Compare and add absolute value of the difference to res
+    # Loop through al and add multiple of element and its count to res
     for a in al:
         if dd[a]:
             res += a*dd[a]
