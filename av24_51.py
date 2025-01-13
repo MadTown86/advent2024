@@ -39,7 +39,7 @@ def main(inp: str)->int:
     return res
 
 if __name__ == "__main__":
-    with open('av24_4_input.txt', 'r') as f:
+    with open('av24_5_input.txt', 'r') as f:
         inp = f.read()
 
     example = """47|53
@@ -71,4 +71,4 @@ if __name__ == "__main__":
 61,13,29
 97,13,75,29,47"""
 
-    print(main(example))
+    print(main(inp))
